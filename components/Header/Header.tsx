@@ -6,20 +6,20 @@ import MobileMenu from "./Headercomp/MobileMenu";
 import { motion } from "framer-motion";
 import AppContext from "../AppContextFolder/AppContext";
 
-const addClass = (ref: any, myclass: string) => {
-  ref.current?.classLIst.add(myclass);
-};
-const Header = (props: { finishedLoading: boolean,sectionsRef }) => {
+// const addClass = (ref: any, myclass: string) => {
+//   ref.current?.classLIst.add(myclass);
+// };
+const Header = (props: { finishedLoading: boolean, sectionsRef }) => {
   const RefNavBar = useRef<HTMLDivElement>(null);
   const [ShowElement, setShowElement] = useState(false);
   const [rotate, setRotate] = useState<boolean>(false);
   const context = useContext(AppContext);
-  const scrollSizeY=useRef<number>(0);
+  const scrollSizeY = useRef<number>(0);
 
   // Define the EventListener for the NavBar
   useEffect(() => {
     if (context.sharedState.portfolio.NavBar.IntervalEvent == null) {
-      context.sharedState.portfolio.NavBar.IntervalEvent=() => {
+      context.sharedState.portfolio.NavBar.IntervalEvent = () => {
         if (scrollSizeY.current == 0) {
           scrollSizeY.current = window.scrollY;
         } else {
@@ -36,7 +36,7 @@ const Header = (props: { finishedLoading: boolean,sectionsRef }) => {
             scrollSizeY.current = window.scrollY;
           }
         }
-        console.log("Scrolling checking for NavBar ", scrollSizeY.current);
+        // console.log("Scrolling checking for NavBar ", scrollSizeY.current);
       }
     }
   }, [context.sharedState.portfolio.NavBar, context.sharedState.portfolio.NavBar.IntervalEvent]);
@@ -53,7 +53,7 @@ const Header = (props: { finishedLoading: boolean,sectionsRef }) => {
     }
   }, [context.sharedState.portfolio.NavBar, context.sharedState.portfolio.NavBar.scrolling]);
 
-  
+
 
   useEffect(() => {
     setTimeout(() => {
