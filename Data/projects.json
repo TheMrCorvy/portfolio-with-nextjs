@@ -1,168 +1,138 @@
 {
 	"projects": [
 		{
-			"name": "string",
-			"imageUrl": "string",
+			"name": "My Portfolio",
+			"imageUrl": "/my-portfolio.jpg",
 			"isRecent": true,
 			"inProgress": false,
 			"description": {
-				"text": "string",
-				"KeyWords": []
+				"text": "I've very recently re-built my portfolio website in order to update the technologies I used to build it, and also to give it a new look with more animations and interactivity in general, and greatly increasing the performance and SEO.",
+				"KeyWords": ["animations", "interactivity", "increasing the performance"]
 			},
-			"tags": [""],
+			"tags": ["TypeScript", "Next JS", "React.JS", "Tailwind CSS", "Motion", "Context API"],
 			"links": {
-				"github": "string",
-				"webPage": "string"
+				"github": "https://github.com/TheMrCorvy/portfolio-with-nextjs",
+				"webPage": "https://corvalangonzalo.xyz"
 			}
 		},
 		{
-			"name": "string",
-			"imageUrl": "string",
+			"name": "Amazoness",
+			"imageUrl": "https://res.cloudinary.com/dk61gssrr/image/upload/v1641899000/projects/amazoness_tkmmln.jpg",
 			"isRecent": true,
-			"inProgress": false,
+			"inProgress": true,
 			"description": {
-				"text": "string",
-				"KeyWords": []
+				"text": "Amazoness is a project still in process. This app is planned to be a complete E-Commerce, including variants for products, login and register system, and an administration panel with graophics.",
+				"KeyWords": ["E-Commerce", "administration panel"]
 			},
-			"tags": [""],
+			"tags": ["Next JS", "TypeScript", "React.JS", "Material UI", "MongoDB"],
 			"links": {
-				"github": "string",
-				"webPage": "string"
+				"github": "https://github.com/TheMrCorvy/amazoness",
+				"webPage": "https://amazoness.vercel.app/"
 			}
 		},
 		{
-			"name": "string",
-			"imageUrl": "string",
+			"name": "PasuNashi",
+			"imageUrl": "https://res.cloudinary.com/dk61gssrr/image/upload/v1642176449/projects/pasunashi_jj0ic9.png",
 			"isRecent": true,
 			"inProgress": false,
 			"description": {
-				"text": "string",
-				"KeyWords": []
+				"text": "A complete password manager app bult with React JS, TypeScrpt, and Material UI for the frontend, and Laravel with MySQL as the backend. Ths app includes role managements for users, premium functions, payments handling wth PayPal and Coinbase. The app synchronizes all the stored passwords of the users across al the users' registered devices.",
+				"KeyWords": ["password manager", "role managements", "payments", "synchronizes"]
 			},
-			"tags": [""],
+			"tags": ["React.JS", "TypeScript", "React Testing Library", "TDD", "Laravel", "MySQL"],
 			"links": {
-				"github": "string",
-				"webPage": "string"
+				"github": "https://github.com/PasuSewa",
+				"webPage": "https://pasunashi.xyz"
 			}
 		},
 		{
-			"name": "string",
-			"imageUrl": "string",
-			"isRecent": true,
+			"name": "Marroquineria Stallion",
+			"imageUrl": "https://res.cloudinary.com/dk61gssrr/image/upload/v1641898984/projects/stallion_gcywin.jpg",
+			"isRecent": false,
 			"inProgress": false,
 			"description": {
-				"text": "string",
-				"KeyWords": []
+				"text": "The web application for the E-Commerce of Stallion Marroquinería. This app was built using Next JS, TypeScript, and MaterialUI for the frontend, and Laravel as backend API, with MySQL database.",
+				"KeyWords": ["E-Commerce"]
 			},
-			"tags": [""],
+			"tags": ["Next JS", "Material UI", "Laravel", "MySQL"],
 			"links": {
-				"github": "string",
-				"webPage": "string"
+				"github": "https://github.com/TheMrCorvy/Marroquineria-Stallion-Frontend",
+				"webPage": "https://marroquineria-stallion-frontend.vercel.app"
 			}
 		},
 		{
-			"name": "string",
-			"imageUrl": "string",
-			"isRecent": true,
+			"name": "Nihongo App",
+			"imageUrl": "https://res.cloudinary.com/dk61gssrr/image/upload/v1641898967/projects/nihongo_app_qn4yss.jpg",
+			"isRecent": false,
 			"inProgress": false,
 			"description": {
-				"text": "string",
-				"KeyWords": []
+				"text": "A prgressive Web Aplication for studying Japanese language. This app was built using React JS and a layout for Reactstrap.",
+				"KeyWords": ["progressive web app"]
 			},
-			"tags": [""],
+			"tags": ["React.JS", "Reactstrap", "Japanese Language"],
 			"links": {
-				"github": "string",
-				"webPage": "string"
+				"github": "https://github.com/TheMrCorvy/nihongo-app",
+				"webPage": "https://themrcorvy.github.io/nihongo-app/"
 			}
 		},
 		{
-			"name": "string",
-			"imageUrl": "string",
-			"isRecent": true,
+			"name": "Salud Y Derechos",
+			"imageUrl": "https://res.cloudinary.com/dk61gssrr/image/upload/v1641898760/projects/salud_lqnvlq.jpg",
+			"isRecent": false,
 			"inProgress": false,
 			"description": {
-				"text": "string",
+				"text": "The web page that serves as presentation for the lawyer Dr. Juan Pablo Corvalán. This web page explains the process to claim for the legal protection of the Human Right, as well as show the achievements and studies of the Dr.",
 				"KeyWords": []
 			},
-			"tags": [""],
+			"tags": ["React.JS", "TypeScript", "Material UI"],
 			"links": {
-				"github": "string",
-				"webPage": "string"
+				"github": "https://github.com/TheMrCorvy/salud-y-derechos",
+				"webPage": "https://saludyderechos.com.ar"
 			}
 		},
 		{
-			"name": "string",
-			"imageUrl": "string",
+			"name": "Yu-Gi-Oh! Para El Pueblo",
+			"imageUrl": "https://res.cloudinary.com/dk61gssrr/image/upload/v1641898862/projects/ygopep_jbnzjb.jpg",
 			"isRecent": true,
 			"inProgress": false,
 			"description": {
-				"text": "string",
-				"KeyWords": []
+				"text": "An E-Commerce built using only Laravel (for both the frontend and backend), and MySQL for the database.",
+				"KeyWords": ["E-Commerce"]
 			},
-			"tags": [""],
+			"tags": ["Laravel", "MySQL", "Bootstrap", "PHP"],
 			"links": {
-				"github": "string",
-				"webPage": "string"
+				"github": "https://github.com/TheMrCorvy/Yu-Gi-Oh-Para-El-Pueblo",
+				"webPage": "https://yugiohparaelpueblo.herokuapp.com/"
 			}
 		},
 		{
-			"name": "string",
-			"imageUrl": "string",
-			"isRecent": true,
+			"name": "GBA Credionline",
+			"imageUrl": "https://res.cloudinary.com/dk61gssrr/image/upload/v1641898892/projects/gba_iogzys.jpg",
+			"isRecent": false,
 			"inProgress": false,
 			"description": {
-				"text": "string",
+				"text": "A simple web page built with a layout based on Bootstrap 4.",
 				"KeyWords": []
 			},
 			"tags": [""],
 			"links": {
-				"github": "string",
-				"webPage": "string"
+				"github": "https://github.com/TheMrCorvy/gba-credionline",
+				"webPage": "http://gba.credionline.com/"
 			}
 		},
 		{
-			"name": "string",
-			"imageUrl": "string",
-			"isRecent": true,
+			"name": "Prices of Magic The Gathering",
+			"imageUrl": "https://res.cloudinary.com/dk61gssrr/image/upload/v1641898647/projects/magic_ug3jgc.jpg",
+			"isRecent": false,
 			"inProgress": false,
 			"description": {
-				"text": "string",
-				"KeyWords": []
+				"text": "A simple frontend application that consumes an API in order to show.",
+				"KeyWords": ["API"]
 			},
-			"tags": [""],
+			"tags": ["React.JS", "Bootstrap"],
 			"links": {
-				"github": "string",
-				"webPage": "string"
-			}
-		},
-		{
-			"name": "string",
-			"imageUrl": "string",
-			"isRecent": true,
-			"inProgress": false,
-			"description": {
-				"text": "string",
-				"KeyWords": []
-			},
-			"tags": [""],
-			"links": {
-				"github": "string",
-				"webPage": "string"
-			}
-		},
-		{
-			"name": "string",
-			"imageUrl": "string",
-			"isRecent": true,
-			"inProgress": false,
-			"description": {
-				"text": "string",
-				"KeyWords": []
-			},
-			"tags": [""],
-			"links": {
-				"github": "string",
-				"webPage": "string"
+				"github": "https://github.com/TheMrCorvy/precios-mtg",
+				"webPage": "https://themrcorvy.github.io/precios-mtg/"
 			}
 		}
 	]

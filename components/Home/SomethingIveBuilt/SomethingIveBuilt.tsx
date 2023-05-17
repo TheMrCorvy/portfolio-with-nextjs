@@ -3,18 +3,19 @@ import ArrowIcon from "../../Icons/ArrowIcon";
 import ImageRight from './ImageRight'
 import ImageLeft from './ImageLeft'
 
+import projectsData from '../../../Data/projects.json'
+
 
 export default function SomethingIveBuilt() {
 
     const renderProjects = () => {
-        const arr = [1, 2, 3, 4, 5]
 
-        return arr.map((project, index) => {
+        return projectsData.projects.map((project, index) => {
             if (index % 2 === 0) {
-                return <ImageRight key={'projects' + project + index} />
+                return <ImageRight key={'projects' + project.name + index} project={project} />
             }
 
-            return <ImageLeft key={'projects' + project + index} />
+            return <ImageLeft key={'projects' + project.name + index} project={project} />
         })
     }
 
