@@ -110,7 +110,7 @@ const Startup = (props) => {
                     transition={{ scale: { delay: 1.5, duration: 1.5 } }}
                     className="text-AAsecondary font-Text2 text-4xl"
                 >
-                    GC
+                    CG
                 </motion.span>
             </motion.div>
         </motion.div>
