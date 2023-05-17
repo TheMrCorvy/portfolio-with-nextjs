@@ -30,27 +30,26 @@ export default function AboutMe(props) {
                     <div className="w-full md:w-9/12 space-y-4 sm:text-base text-sm ">
                         <div className="font-Header ">
                             <span className="text-gray-400  tracking-wide">
-                                Hello! My name is Abdellatif and I enjoy solving problems and creating codes that live on the internet.
-                                My interest in computer science started back in 2009 when I decided to try learning{" "}
-                                <span className="text-AAsecondary">Ethical Hacking</span> using BackTrack OS — it turns out programming
-                                skills are essential to achieve that, my journey with programming started from that time!
+                                Hello! My name is <span className="text-AAsecondary">Gonzalo</span> and I enjoy solving problems and
+                                creating apps that live on the internet. My interest in computer science started with the
+                                {' '}<span className="text-AAsecondary">curiosity</span>{' '}
+                                of how the things work, that&apos;s what initially led me to study programming, and it&apos;s still what
+                                motivates me to conitnue <span className="text-AAsecondary">investigating</span> about new technology.
                             </span>
                         </div>
                         <div className="font-Header tracking-wide">
                             <span className="text-gray-400  ">
-                                Fast-forward to today, I&apos;ve had the privilege of working at
-                                <span className="text-AAsecondary"> a huge manufacturing company</span>,
-                                <span className="text-AAsecondary"> a start-up</span>,{" "}
-                                <span className="text-AAsecondary">export-import companies</span>, also
-                                <span className="text-AAsecondary"> freelancing</span> and recently as Lead for the{" "}
-                                <span className="text-AAsecondary">Google Developer Student club</span>. Experienced in Desktop & Web
-                                Development, lately with Arduino Development. My main focus these days is creating and testing{" "}
-                                <span className="text-AAsecondary">Smart Contracts</span> with Hardhat.
+                                Fast-forward to today, I&apos;ve learn and had the opportunity to use a lot of different technologies
+                                from multiple areas of programming. I&apos;ve also been working as a{' '}
+                                <span className="text-AAsecondary">freelance web developer</span> for almost
+                                two years, and now I&apos;m looking for <span className="text-AAsecondary">new challenges</span>{' '}
+                                and <span className="text-AAsecondary">opportunities</span> to continue growing as a professional and
+                                acquire more experience in this field.
                             </span>
                         </div>
 
                         <div className="font-Header tracking-wide">
-                            <span className="text-gray-400  ">Here are a few technologies I&apos;ve been working with recently:</span>
+                            <span className="text-gray-400">Here are a few technologies I&apos;ve been working with recently:</span>
                         </div>
                         <div className="font-Header tracking-wide flex flex-row space-x-16 justify-center" style={{ flexWrap: 'wrap' }}>
                             <div className="flex flex-row space-x-2 items-center">
