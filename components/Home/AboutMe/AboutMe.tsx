@@ -38,9 +38,13 @@ export default function AboutMe() {
 
         // console.log(result)
 
-        emailjs.send('service_b4s3gs9', 'template_89o8c9l', result, 'user_mMNITIgF6TFcu7x2W2gCo')
+        emailjs.send(
+            process.env.NEXT_PUBLIC_EMAIL_JS_SERVICE_ID,
+            process.env.NEXT_PUBLIC_EMAIL_JS_TEMPLATE_ID,
+            result,
+            process.env.NEXT_PUBLIC_EMAIL_JS_PUBLIC_KEY)
             .then(function (response) {
-                // console.log('SUCCESS!', response.status, response.text);
+                console.log('😈');
             }, function (err) {
                 console.log('FAILED...', err);
             });
