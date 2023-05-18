@@ -36,11 +36,11 @@ export default function AboutMe() {
             firstVisit_Ref,
         });
 
-        console.log(result)
+        // console.log(result)
 
         emailjs.send('service_b4s3gs9', 'template_89o8c9l', result, 'user_mMNITIgF6TFcu7x2W2gCo')
             .then(function (response) {
-                console.log('SUCCESS!', response.status, response.text);
+                // console.log('SUCCESS!', response.status, response.text);
             }, function (err) {
                 console.log('FAILED...', err);
             });
