@@ -77,7 +77,8 @@ export const MouseWindowEventListners = ({
 			windowWidth.current.innerText = String(window.innerWidth)
 			windowHeight.current.innerText = String(window.innerHeight)
 		}
-		console.log("Window Size Tracker...")
+
+		// console.log("Window Size Tracker...")
 	}
 	// assint mousePositionTracker.current here to use in the as fallback function for the event
 	// and to remove the event in the other pages
@@ -161,23 +162,31 @@ export const userInfo = async ({
 	temp_array_location.push(result.lat)
 	temp_array_location.push(result.lon)
 	setLocation([...temp_array_location])
-	console.log("useEffect run, data :", result)
+
+	// console.log("useEffect run, data :", result)
+
 	setZipCode(result.zip)
 	userData.current = result
 	// first & last visit tracker with conditional statement using cookies.
 	//it's inside userInfo function to get the current time by the ip Address
-	if (cookieCutter.get("first-visit")) {
-		lastVisit_Ref.current.innerText = cookieCutter.get("last-visit")
-		cookieCutter.set("last-visit", result.datetime)
-	} else {
-		lastVisit_Ref.current.innerText = "Now"
-		cookieCutter.set("first-visit", result.datetime)
-		cookieCutter.set("last-visit", result.datetime)
+	try {
+		if (cookieCutter.get("first-visit")) {
+			lastVisit_Ref.current.innerText = cookieCutter.get("last-visit")
+			cookieCutter.set("last-visit", result.datetime)
+		} else {
+			lastVisit_Ref.current.innerText = "Now"
+			cookieCutter.set("first-visit", result.datetime)
+			cookieCutter.set("last-visit", result.datetime)
+		}
+		firstVisit_Ref.current.innerText = cookieCutter.get("first-visit")
+	} catch (error) {
+		// console.log(error)
 	}
-	firstVisit_Ref.current.innerText = cookieCutter.get("first-visit")
 	// set up gpuTier state value
 	const gpuTier_data = await getGPUTier()
 	setGpuTier(Object(gpuTier_data))
+
+	return result
 }
 
 // ? update Location on click event callback function

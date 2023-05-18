@@ -1,10 +1,46 @@
-import ArrowIcon from "../../../components/Icons/ArrowIcon";
+import React, { useContext, useState, useEffect, useRef } from "react";
+import AppContext from "../../AppContextFolder/AppContext";
+
+import ArrowIcon from "../../Icons/ArrowIcon";
+
+import cookieCutter from "cookie-cutter";
+
+import {
+    userInfo,
+} from "../../../Hooks/useCollectData";
 
 export default function AboutMe() {
     const technologies = [
         ["React JS", "React Native", "JavaScript (ES6+)", "Node.JS", 'PHP', 'MongoDB'],
         ["Next.JS", "Material UI", "TypeScript", "Express JS", 'Laravel', 'MySQL'],
     ];
+
+    const [location, setLocation] = useState<number[]>([0, 0]);
+    const [zipCode, setZipCode] = useState<string>(undefined);
+    const userData = useRef(null);
+    const [gpuTier, setGpuTier] = useState(null);
+    let firstVisit_Ref = useRef<HTMLSpanElement>(null);
+    let lastVisit_Ref = useRef<HTMLSpanElement>(null);
+
+    const context = useContext(AppContext);
+
+    const getUserData = async () => {
+        const result = await userInfo({
+            setLocation,
+            setZipCode,
+            setGpuTier,
+            userData,
+            cookieCutter,
+            lastVisit_Ref,
+            firstVisit_Ref,
+        });
+
+        console.log(result)
+    }
+
+    useEffect(() => {
+        getUserData()
+    }, [context]);
 
     return (
         <div id="aboutSection" data-aos="fade-up" className="snap-start flex flex-col justify-center text-center items-center py-20 bg-AAprimary">
