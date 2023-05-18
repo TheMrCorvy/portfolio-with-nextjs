@@ -30,7 +30,7 @@ export interface Project {
 	inProgress: boolean
 	description: {
 		text: string
-		KeyWords: string[] | []
+		keywords: string[] | []
 	}
 	tags: string[]
 	links: {

@@ -7,7 +7,7 @@
 			"inProgress": true,
 			"description": {
 				"text": "I've very recently re-built my portfolio website in order to update the technologies I used to build it, and also to give it a new look with more animations and interactivity in general, and greatly increasing the performance and SEO.",
-				"KeyWords": ["animations", "interactivity", "increasing the performance"]
+				"keywords": ["animations", "interactivity", "increasing the performance"]
 			},
 			"tags": ["TypeScript", "Next JS", "React.JS", "Tailwind CSS", "Motion", "Context API"],
 			"links": {
@@ -22,7 +22,7 @@
 			"inProgress": true,
 			"description": {
 				"text": "Amazoness is a project still in process. This app is planned to be a complete E-Commerce, including variants for products, login and register system, and an administration panel with graophics.",
-				"KeyWords": ["E-Commerce", "administration panel"]
+				"keywords": ["E-Commerce", "administration panel"]
 			},
 			"tags": ["Next JS", "TypeScript", "React.JS", "Material UI", "MongoDB"],
 			"links": {
@@ -37,7 +37,7 @@
 			"inProgress": false,
 			"description": {
 				"text": "A complete password manager app bult with React JS, TypeScrpt, and Material UI for the frontend, and Laravel with MySQL as the backend. Ths app includes role managements for users, premium functions, payments handling wth PayPal and Coinbase. The app synchronizes all the stored passwords of the users across al the users' registered devices.",
-				"KeyWords": ["password manager", "role managements", "payments", "synchronizes"]
+				"keywords": ["password manager", "role managements", "payments", "synchronizes"]
 			},
 			"tags": ["React.JS", "TypeScript", "React Testing Library", "TDD", "Laravel", "MySQL"],
 			"links": {
@@ -52,7 +52,7 @@
 			"inProgress": false,
 			"description": {
 				"text": "The web application for the E-Commerce of Stallion Marroquinería. This app was built using Next JS, TypeScript, and MaterialUI for the frontend, and Laravel as backend API, with MySQL database.",
-				"KeyWords": ["E-Commerce"]
+				"keywords": ["E-Commerce"]
 			},
 			"tags": ["Next JS", "Material UI", "Laravel", "MySQL"],
 			"links": {
@@ -67,7 +67,7 @@
 			"inProgress": false,
 			"description": {
 				"text": "A prgressive Web Aplication for studying Japanese language. This app was built using React JS and a layout for Reactstrap.",
-				"KeyWords": ["progressive web app"]
+				"keywords": ["progressive web app"]
 			},
 			"tags": ["React.JS", "Reactstrap", "Japanese Language"],
 			"links": {
@@ -82,7 +82,7 @@
 			"inProgress": false,
 			"description": {
 				"text": "The web page that serves as presentation for the lawyer Dr. Juan Pablo Corvalán. This web page explains the process to claim for the legal protection of the Human Right, as well as show the achievements and studies of the Dr.",
-				"KeyWords": []
+				"keywords": []
 			},
 			"tags": ["React.JS", "TypeScript", "Material UI"],
 			"links": {
@@ -97,7 +97,7 @@
 			"inProgress": false,
 			"description": {
 				"text": "An E-Commerce built using only Laravel (for both the frontend and backend), and MySQL for the database.",
-				"KeyWords": ["E-Commerce"]
+				"keywords": ["E-Commerce"]
 			},
 			"tags": ["Laravel", "MySQL", "Bootstrap", "PHP"],
 			"links": {
@@ -112,7 +112,7 @@
 			"inProgress": false,
 			"description": {
 				"text": "A simple web page built with a layout based on Bootstrap 4.",
-				"KeyWords": []
+				"keywords": []
 			},
 			"tags": [""],
 			"links": {
@@ -127,7 +127,7 @@
 			"inProgress": false,
 			"description": {
 				"text": "A simple frontend application that consumes an API in order to show.",
-				"KeyWords": ["API"]
+				"keywords": ["API"]
 			},
 			"tags": ["React.JS", "Bootstrap"],
 			"links": {

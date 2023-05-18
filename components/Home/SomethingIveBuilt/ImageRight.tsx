@@ -9,6 +9,8 @@ import GithubIcon from "../../Icons/GithubIconForSomethingIveBuild";
 
 import { Project } from '../../../Data/dataTypes'
 
+import highlightWords from '../../../Hooks/highlightWords';
+
 const ImageRight = ({ project }: { project: Project }) => {
     const router = useRouter();
 
@@ -72,13 +74,10 @@ const ImageRight = ({ project }: { project: Project }) => {
                             </a>
                         </div>
                         <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
-                            <p className="text-gray-300 md:text-gray-400 text-left ">
-                                I had the opportunity to lead the development of a token project, which aimed to create a
-                                decentralized ecosystem for peer-to-peer transactions. Overseeing the planning and development of the
-                                project, including the <span className="text-AAsecondary"> design</span> and implementation of the{" "}
-                                <span className="text-AAsecondary"> smart contract</span> and{" "}
-                                <span className="text-AAsecondary"> blockchain technology</span>. Here i share with you{" "}
-                                <span className="text-AAsecondary"> YPredict - v1 </span> for the private sale.
+                            <p className="text-gray-300 md:text-gray-400 text-left md:text-right"
+                                dangerouslySetInnerHTML={{
+                                    __html: highlightWords(description.text, description.keywords),
+                                }}>
                             </p>
                         </div>
                         <ul

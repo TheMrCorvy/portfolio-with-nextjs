@@ -9,6 +9,8 @@ import GithubIcon from "../../Icons/GithubIconForSomethingIveBuild";
 
 import { Project } from '../../../Data/dataTypes'
 
+import highlightWords from '../../../Hooks/highlightWords';
+
 const ImageLeft = ({ project }: { project: Project }) => {
     const router = useRouter();
 
@@ -71,11 +73,10 @@ const ImageLeft = ({ project }: { project: Project }) => {
                             </a>
                         </div>
                         <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
-                            <p className="text-gray-300 md:text-gray-400 text-left md:text-right">
-                                It&apos; a barber shop <span className="text-AAsecondary">appointment scheduling</span> & management
-                                software it provides <span className="text-AAsecondary">online scheduling</span>, appointment
-                                reminders, <span className="text-AAsecondary">payments</span>, marketing, and much more! Currently in
-                                the <span className="text-AAsecondary">Initiation phase</span>.
+                            <p className="text-gray-300 md:text-gray-400 text-left md:text-right"
+                                dangerouslySetInnerHTML={{
+                                    __html: highlightWords(description.text, description.keywords),
+                                }}>
                             </p>
                         </div>
                         <ul

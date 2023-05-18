@@ -1,6 +1,6 @@
 export type task = [{ text: string; keywords: string[] }]
 
-export const highlightKeywords = (text: string, keyword: string[] | []) => {
+const highlightWords = (text: string, keyword: string[] | []) => {
 	if (keyword.length > 0) {
 		const regex = new RegExp(keyword.join("|"), "gi")
 		// console.log("regex", regex)
@@ -8,3 +8,5 @@ export const highlightKeywords = (text: string, keyword: string[] | []) => {
 	}
 	return text
 }
+
+export default highlightWords

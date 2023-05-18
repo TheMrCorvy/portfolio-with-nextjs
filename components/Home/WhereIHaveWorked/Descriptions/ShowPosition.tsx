@@ -1,6 +1,6 @@
 import React from "react";
 import ArrowIcon from "../../../Icons/ArrowIcon";
-import { highlightKeywords } from "./highlightKeywords";
+import highlightWords from "../../../../Hooks/highlightWords";
 
 import { Position } from './experience'
 
@@ -26,7 +26,7 @@ export default function ShowPosition({ position }: { position: Position }) {
                 <span
                   className="text-gray-500 sm:text-sm text-xs"
                   dangerouslySetInnerHTML={{
-                    __html: highlightKeywords(item.text, item.keywords),
+                    __html: highlightWords(item.text, item.keywords),
                   }}
                 ></span>
               </div>
