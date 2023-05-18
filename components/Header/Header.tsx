@@ -62,7 +62,8 @@ const Header = (props: { finishedLoading: boolean, sectionsRef }) => {
         }, 10400);
     }, []);
 
-    console.log("rotate from header : ", rotate);
+    // console.log("rotate from header : ", rotate);
+
     //veify document for serverSide rendering
     if (typeof document !== "undefined") {
         rotate ? (document.body.style.overflow = "hidden") : (document.body.style.overflow = "auto");

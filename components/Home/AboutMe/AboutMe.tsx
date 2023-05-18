@@ -1,6 +1,6 @@
 import ArrowIcon from "../../../components/Icons/ArrowIcon";
 
-export default function AboutMe(props) {
+export default function AboutMe() {
     const technologies = [
         ["React JS", "React Native", "JavaScript (ES6+)", "Node.JS", 'PHP', 'MongoDB'],
         ["Next.JS", "Material UI", "TypeScript", "Express JS", 'Laravel', 'MySQL'],

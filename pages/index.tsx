@@ -22,7 +22,6 @@ export default function Home() {
     const [ShowMe, setShowMe] = useState(false);
     // context Variable to clearInterval
     const context = useContext(AppContext);
-    const aboutRef = useRef<HTMLDivElement>(null);
     const homeRef = useRef<HTMLDivElement>(null);
 
     useEffect(() => {
@@ -58,7 +57,7 @@ export default function Home() {
 
 
 
-    console.log("Portfolio Rendered...");
+    // console.log("Portfolio Rendered...");
 
     const meta = {
         title: "Corvalan Gonzalo",
@@ -92,7 +91,7 @@ export default function Home() {
                 <Header finishedLoading={context.sharedState.finishedLoading} sectionsRef={homeRef} />
                 <MyName finishedLoading={context.sharedState.finishedLoading} />
                 <SocialMediaArround finishedLoading={context.sharedState.finishedLoading} />
-                {context.sharedState.finishedLoading ? <AboutMe ref={aboutRef} /> : <></>}
+                {context.sharedState.finishedLoading ? <AboutMe /> : <></>}
                 {context.sharedState.finishedLoading ? <WhereIHaveWorked /> : <></>}
                 {context.sharedState.finishedLoading ? <SomethingIveBuilt /> : <></>}
                 {context.sharedState.finishedLoading ? <GetInTouch /> : <></>}
