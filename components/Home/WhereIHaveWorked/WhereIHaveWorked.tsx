@@ -2,19 +2,23 @@ import { useState } from "react";
 
 import ArrowIcon from "../../Icons/ArrowIcon";
 
-import ShowPosition from "./Descriptions/ShowPosition";
-import { experience } from './Descriptions/experience'
+import ShowPosition from "./ShowPosition";
+// import { experience } from './Descriptions/experience'
+import experience from './../../../Data/experience.json'
 import CompaniesBar from './CompaniesBar'
 
 export default function WhereIHaveWorked() {
+
     // ? INFORMATIONAL control the green position using px,
     // ? INFORMATIONAL the default value of barRef's class should be at the beginning translate-y-[0px]
-    const [positionKey, setpositionKey] = useState(experience[0].key);
+    const exp = experience.experience
+    const [positionKey, setpositionKey] = useState(exp[0].key);
 
     const GetDescription = () => {
-        const pos = experience.map(e => e.key).indexOf(positionKey)
 
-        return <ShowPosition position={experience[pos]} />
+        const pos = exp.map(e => e.key).indexOf(positionKey)
+
+        return <ShowPosition position={exp[pos]} />
     };
 
     return (

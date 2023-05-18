@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 
 import { motion } from "../../../node_modules/framer-motion/dist/framer-motion";
 
-import { experience } from './Descriptions/experience'
+import experience from '../../../Data/experience.json'
 
 const CompaniesBar = props => {
     const [barPosition, setBarPosition] = useState<Number>(-8); // Green bar position by the default it's -20px
@@ -13,6 +13,8 @@ const CompaniesBar = props => {
         false,
         false,
     ]);
+
+    const exp = experience.experience
 
     const CompanyButton = props => {
         return (
@@ -58,7 +60,7 @@ const CompaniesBar = props => {
             {/* // ? Companies name as buttons */}
             <div className="flex flex-col md:order-2 order-1 space-y-1 pl-0" >
                 <div className="flex flex-row md:flex-col">
-                    {experience.map((pos, index) => (
+                    {exp.map((pos, index) => (
                         <CompanyButton
                             key={'button' + pos.key + index}
                             {...pos.buttonProps}
