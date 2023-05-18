@@ -2,9 +2,9 @@
 	"projects": [
 		{
 			"name": "My Portfolio",
-			"imageUrl": "/my-portfolio.jpg",
+			"imageUrl": "/portfolio.png",
 			"isRecent": true,
-			"inProgress": false,
+			"inProgress": true,
 			"description": {
 				"text": "I've very recently re-built my portfolio website in order to update the technologies I used to build it, and also to give it a new look with more animations and interactivity in general, and greatly increasing the performance and SEO.",
 				"KeyWords": ["animations", "interactivity", "increasing the performance"]
@@ -62,7 +62,7 @@
 		},
 		{
 			"name": "Nihongo App",
-			"imageUrl": "https://res.cloudinary.com/dk61gssrr/image/upload/v1641898967/projects/nihongo_app_qn4yss.jpg",
+			"imageUrl": "/nihongo.png",
 			"isRecent": false,
 			"inProgress": false,
 			"description": {
