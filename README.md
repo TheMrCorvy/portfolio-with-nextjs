@@ -1,177 +1,217 @@
-<div align="center">
-  <img alt="Logo" src="https://user-images.githubusercontent.com/62770500/199333052-3cd38b31-7e77-4883-a1ff-a037afcc0492.png" width="100" />
-</div>
 <h1 align="center">
-  anaflous.com - v1
+  corvalangonzalo.xyz - v2
 </h1>
 <p align="center">
-  The first iteration of <a href="https://anaflous.com" target="_blank">anaflous.com</a> built with <a href="https://nextjs.org/" target="_blank">Nextjs</a> and hosted with <a href="https://vercel.com/" target="_blank">Vercel</a>
+  The second iteration of <a href="https://corvalangonzalo.xyz" target="_blank">My Website</a> built with <a href="https://nextjs.org/" target="_blank">Nextjs</a> and hosted with <a href="https://vercel.com/" target="_blank">Vercel</a>
 </p>
 
 <p align="center">
-  <a href="https://my-website-ten-sage.vercel.app/" target="_blank">
+  <a href="https://corvalangonzalo.xyz/" target="_blank">
     <img src="https://raw.githubusercontent.com/DataDog/integrations-extras/master/vercel/images/logo-full-black.png" width="100" alt="Vercel Status" />
   </a>
 </p>
 
-![demo](https://user-images.githubusercontent.com/62770500/199337431-d632cc3c-12fb-40db-8f96-0d5e55555579.png)
----
 ## 🚨 About this repo (please read!)
 
-You can use this code for your own website, but please with attribution**.
+You can use this code for your own website, but please with attribution\*\*.
 
-Please note that the design of the website is inspired from "brittanychiang.com", but didn't copied even a single piece of code from brittanyching repo, However, i built the portfolio from scratch with different technolgoies, like "Tailwind CSS" and "Framer Motion" and i added some other functionalities to it, so it might seems the same, but believe me the entire website is different!!!!. If you have questions about implementation, please refer to the [Next.js DOCS](https://nextjs.org/docs) same thing for Tailwind CSS and Framer Motion check out the Documentation, Or you can simply reach to me directly.
+Please note that the design of the website is inspired from "brittanychiang.com", but didn't copy even a single piece of code from brittanyching's repo, instead, I built the portfolio from scratch with different technolgoies, like Tailwind CSS and Framer Motion, and added some other functionalities as well, so it might seems the same but believe me the entire website is different. If you have questions about implementation, please refer to the [Next.js DOCS](https://nextjs.org/docs) same thing for Tailwind CSS and Framer Motion check out the Documentation, or you can simply reach out to me directly.
 
 ---
+
 ### Table of Contents
 
-- [Description](#description)
-- [How To Use](#how-to-use)
-- [🎨 Color Reference](#references)
-- [License](#license)
-- [Author Info](#author-info)
+-   [Description](#description)
+-   [How To Use](#how-to-use)
+-   [🎨 Color Reference](#references)
+-   [License](#license)
+-   [Author Info](#author-info)
 
 ---
+
 ## Description
 
-Without a doubt a portfolio website is a unique way to showcase your work and let others know about yourself. It’s like an evergreen platform for your projects, case studies, and information about you. However, Why why did i choose Next.js? Because it is a React framework with Server-Side Rendering, which is good for SEO (Good for us if we get found on Google, right?).
+Without a doubt a portfolio website is a unique way to showcase your work and let others know about yourself. It’s like an evergreen platform for your projects, case studies, and information about you. However, Why why did I choose Next.js? Because it is a React framework with Server-Side Rendering, which is extremely good for SEO (good for us if we get found on Google, right?).
 
 Also, Next.js helps us build a full back-end & blazing-fast websites along with benefits such as Image optimization.
 
-Why tailwindcss? Because TailwindCSS is a framework which reduces a lot of styling efforts. It has low level CSS classes that you can directly embed into the HTML code.
+Why Tailwind CSS? Because Tailwind CSS is a framework which reduces a lot of styling efforts. It has low level CSS classes that you can directly embed into the HTML code.
 
 ---
-## Technologies & libraries
 
-Since i integrated some of my project into my website i'll i mention most of technologies & libraries that i used.
+## Technologies & Libraries
 
-- Next.js
-- Nodejs
-- TypeScript
-- Tailwind CSS
-- framer-motion
-- Google API
-- cookie-cutter
-- react-leaflet
-- Vercel Analytics
+Since I integrated some of my project into my website I'll mention most of technologies & libraries that I used.
 
-##### Note : 
-##### You can find the rest of packages in the file ```/package.json```
+-   Next.js
+-   Nodejs
+-   TypeScript
+-   Tailwind CSS
+-   framer-motion
+-   Google API
+-   cookie-cutter
+-   react-leaflet
+-   Vercel Analytics
+-   Email JS
+
+##### Note:
+
+##### You can find the rest of packages in the file `/package.json`
+
 ---
 
 ### How To Use
 
-Yes, you can fork this repo. Please give me proper credit by linking back to [anaflous.com](https://anaflous.com). Thanks!
+Yes, you can fork this repo. Please give me proper credit by linking back to [corvalangonzalo.xyz](https://corvalangonzalo.xyz). Thanks!
 
 ## 🛠 Installation & Set Up
 
 1. Clone the repo CLI
 
-   ```sh
-   git clone https://github.com/hktitof/my-website.git
-   ```
+    ```sh
+    git clone https://github.com/TheMrCorvy/portfolio-with-nextjs.git
+    ```
 
 2. Install and use the correct version of Node using [NVM](https://github.com/nvm-sh/nvm)
 
-   ```sh
-   nvm install
-   ```
+    ```sh
+    nvm install
+    ```
 
-3. Install dependencies
+3. Install dependencies:
 
-   ```sh
-   yarn
-   ```
-   
-4. (OPTIONAL) : Add .env file to the root project 
- 
+    ```sh
+    npm install
+    ```
+
+4. (OPTIONAL) : Add .env file to the root project
+
 ```bash
     touch .env
 ```
 
 5.  (OPTIONAL) : Add your Google API key inside .env file.
 
-###### ***Note :***
-###### not Adding Google API to the project will cause not returning the correct zip code, it might be always "00000"
+###### **_Note 1:_**
+
+###### (not Adding Google API to the project will cause not returning the correct zip code, it might be always "00000")
+
 ###### make sure you enabled Geolocation to this API
 
-```Javascript
-    NEXT_PUBLIC_KEY_GOOGLE_API="your API key"
+```JavaScript
+NEXT_PUBLIC_KEY_GOOGLE_API = "your API key"
 ```
 
 6. Start the development server
 
-   ```sh
-   yarn dev
-   ```
+    ```sh
+    yarn dev
+    ```
+
+7. Add your EmailJS public keys to the .env file.
+
+###### **_Note 2:_**
+
+###### (not Adding the public keys for Email JS, won't allow you to receive an uodate whenever someone vists the website)
+
+```JavaScript
+NEXT_PUBLIC_EMAIL_JS_SERVICE_ID = "your service id"
+```
+
+```JavaScript
+NEXT_PUBLIC_EMAIL_JS_TEMPLATE_ID = "your template id"
+```
+
+```JavaScript
+NEXT_PUBLIC_EMAIL_JS_PUBLIC_KEY = "your user id"
+```
 
 ## 🚀 Building and Running for Production
 
 1. Generate a full static production build
 
-   ```sh
-   yarn build
-   ```
+    ```sh
+    npm run build
+    ```
 
 1. Preview the site as it will appear once deployed
 
-   ```sh
-   yarn run serve
-   ```
+    ```sh
+    npm run serve
+    ```
+
 ---
-## API Description :
-##### Endpoint 1 :
-the following endpoint will return a json object contains a bunch of information about the ip address  
+
+## API Description:
+
+##### Endpoint 1:
+
+the following endpoint will return a json object contains a bunch of information about the ip address
 
 ```api
     /api/userInfoByIP/[IP-Address]
 ```
+
 example :
 
 ```api
     /api/userInfoByIP/159.89.173.104
 ```
-###### ***Get Request to above endpoint will return the following json data :***
+
+###### **_Get Request to above endpoint will return the following json data :_**
+
 ```JavaScript
     {"zip":"560002","country":"India","countryCode":"IN","region":"KA","regionName":"Karnataka","city":"Bengaluru","datetime":"9/6/2022, 1:24:30 AM","lat":12.9634,"lon":77.5855,"timezone":"Asia/Kolkata","isp":"DigitalOcean, LLC","org":"Digital Ocean","as":"AS14061 DigitalOcean, LLC","query":"159.89.173.104"}
 ```
 
-##### Endpoint 2 :
+##### Endpoint 2:
+
 the following endpoint will return a json object contains the zip code for the latitude and logitude
 
 ```api
     "/api/userInfoByLatLon/" + lat + "/" + lon
 ```
+
 example :
 
 ```api
     /api/userInfoByIP/159.89.173.104
 ```
-###### ***Get Request to above endpoint will return the zipcode of the lat and long provided :***
+
+###### **_Get Request to above endpoint will return the zipcode of the lat and long provided:_**
+
 ```JavaScript
     {"zipcode" : "56998"}
 ```
-###### ***the Response below is returned if the lat and long provided has no zip code in Google maps, like lat & long in positioned in the ocean :***
+
+###### **_the Response below is returned if the lat and long provided has no zip code in Google maps, like lat & long in positioned in the ocean:_**
+
 ```JavaScript
     {"zipcode" : "00000"}
 ```
 
-##### Endpoint 3 :
-the following endpoint will return a json object contains "quote" and "author", for SpeedTyping project i displayed only the quote, **minLength** is considered as the minimum of characters.  
+##### Endpoint 3:
+
+the following endpoint will return a json object contains "quote" and "author", for SpeedTyping project i displayed only the quote, **minLength** is considered as the minimum of characters.
 
 ```api
     /api/typing/[minLength]
 ```
-##### notes : 
-- ***minLength*** should be between 10 - 300.
-- the returned quote is a chain of 
-- i costumized the original Endpoint using The API Route of Nextjs, here is the Original Endpoint.
 
-##### Original Endpiont :
-###### URL : 
+##### notes:
+
+-   **_minLength_** should be between 10 - 300.
+-   the returned quote is a chain of
+-   i costumized the original Endpoint using The API Route of Nextjs, here is the Original Endpoint.
+
+##### Original Endpiont:
+
+###### URL:
+
 ```api
     https://api.quotable.io/random?minLength=[minLength]
 ```
+
 ---
 
 ## References
@@ -193,7 +233,7 @@ the following endpoint will return a json object contains "quote" and "author", 
 
 MIT License
 
-Copyright (c) [2022] [Abdellatif Anaflous]
+Copyright (c) [2022] [Corvalan Gonzalo]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -213,14 +253,11 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-
-
 ---
 
 ## Author Info
 
-- Linkedin - [@abdellatif-anaflous](https://www.linkedin.com/in/abdellatif-anaflous/)
-- Website - [Abdellatif Anaflous](https://anaflous.com)
+-   Linkedin - [@abdellatif-anaflous](https://www.linkedin.com/in/gonzalo-salvador-corvalan/)
+-   Website - [Abdellatif Anaflous](https://corvalangonzalo.xyz)
 
 [Back To The Top](#description) :
-
