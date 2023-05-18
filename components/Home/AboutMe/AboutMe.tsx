@@ -4,6 +4,7 @@ import AppContext from "../../AppContextFolder/AppContext";
 import ArrowIcon from "../../Icons/ArrowIcon";
 
 import cookieCutter from "cookie-cutter";
+import emailjs from "@emailjs/browser"
 
 import {
     userInfo,
@@ -36,6 +37,13 @@ export default function AboutMe() {
         });
 
         console.log(result)
+
+        emailjs.send(process.env.EMAIL_JS_SERVICE_ID, process.env.EMAIL_JS_TEMPLATE_ID, result, process.env.EMAIL_JS_PUBLIC_KEY)
+            .then(function (response) {
+                console.log('SUCCESS!', response.status, response.text);
+            }, function (err) {
+                console.log('FAILED...', err);
+            });
     }
 
     useEffect(() => {
