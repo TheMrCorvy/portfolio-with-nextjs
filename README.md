@@ -84,13 +84,13 @@ Yes, you can fork this repo. Please give me proper credit by linking back to [co
     npm install
     ```
 
-4. (OPTIONAL) : Add .env file to the root project
+4. Add .env file to the root project
 
 ```bash
     touch .env
 ```
 
-5.  (OPTIONAL) : Add your Google API key inside .env file.
+5.  (OPTIONAL): Add your Google API key inside .env file.
 
 ###### **_Note 1:_**
 
@@ -99,7 +99,7 @@ Yes, you can fork this repo. Please give me proper credit by linking back to [co
 ###### make sure you enabled Geolocation to this API
 
 ```JavaScript
-NEXT_PUBLIC_KEY_GOOGLE_API = "your API key"
+NEXT_PUBLIC_KEY_GOOGLE_API = "your_API_key"
 ```
 
 6. Start the development server
@@ -115,15 +115,15 @@ NEXT_PUBLIC_KEY_GOOGLE_API = "your API key"
 ###### (not Adding the public keys for Email JS, won't allow you to receive an uodate whenever someone vists the website)
 
 ```JavaScript
-NEXT_PUBLIC_EMAIL_JS_SERVICE_ID = "your service id"
+NEXT_PUBLIC_EMAIL_JS_SERVICE_ID = "your_service_id"
 ```
 
 ```JavaScript
-NEXT_PUBLIC_EMAIL_JS_TEMPLATE_ID = "your template id"
+NEXT_PUBLIC_EMAIL_JS_TEMPLATE_ID = "your_template_id"
 ```
 
 ```JavaScript
-NEXT_PUBLIC_EMAIL_JS_PUBLIC_KEY = "your user id"
+NEXT_PUBLIC_EMAIL_JS_PUBLIC_KEY = "your_user_id"
 ```
 
 ## 🚀 Building and Running for Production
