@@ -1,8 +1,31 @@
 {
 	"projects": [
 		{
+			"name": "Media Suite",
+			"imageUrl": "/projects/media_suite.png",
+			"isRecent": true,
+			"inProgress": true,
+			"description": {
+				"text": "This is a very challenging personal project. Its basically a video converter tool built on the browser using Web Assembly, FFMPEG, React.JS, and TypeScript. It's still in very early stage, but little by little it is going to take form.",
+				"keywords": ["challenging", "Web Assembly"]
+			},
+			"tags": [
+				"TypeScript",
+				"React.JS",
+				"TDD",
+				"Tailwind CSS",
+				"Motion",
+				"FFMPEG",
+				"Web Assembly"
+			],
+			"links": {
+				"github": "https://github.com/TheMrCorvy/portfolio-with-nextjs",
+				"webPage": "https://media-suite.netlify.app"
+			}
+		},
+		{
 			"name": "My Portfolio",
-			"imageUrl": "/portfolio.png",
+			"imageUrl": "/projects/portfolio.png",
 			"isRecent": true,
 			"inProgress": true,
 			"description": {
@@ -62,7 +85,7 @@
 		},
 		{
 			"name": "Nihongo App",
-			"imageUrl": "/nihongo.png",
+			"imageUrl": "/projects/nihongo.png",
 			"isRecent": false,
 			"inProgress": false,
 			"description": {
