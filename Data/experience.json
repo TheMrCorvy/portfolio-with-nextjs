@@ -3,23 +3,23 @@
 		{
 			"company": "Tsumugi Hotel",
 			"key": "TsumugiHotel",
-			"position": "Hotel Receptionist",
+			"position": "Frontend Developer",
 			"tasks": [
 				{
-					"text": "Highly experienced hotel receptionist with a proven track record of 9 months working in Japan.",
-					"keywords": ["Highly experienced", "Japan"]
+					"text": "Streamlined web development workflow by migrating from class to function components in React for a hotel's frontend team.",
+					"keywords": ["Streamlined", "migrating", "React"]
 				},
 				{
-					"text": "Skillfully managed guest check-ins and check-outs while delivering exceptional customer service.",
-					"keywords": ["exceptional customer service"]
+					"text": "Enhanced data integration by creating efficient API response adapters, contributing to seamless user experiences for the hotel's web plattform.",
+					"keywords": ["Enhanced", "efficient", "steamless"]
 				},
 				{
-					"text": "Effective communicator and proficient in handling reservations, providing accurate information, and ensuring a an enjoyable guest experience.",
-					"keywords": ["Effective communicator"]
+					"text": "Drove documentation efforts, ensuring clear guidelines and knowledge sharing for the frontend team at the web development team of the hotel.",
+					"keywords": ["documentation", "frontend team"]
 				}
 			],
 			"from": "Jun 2022",
-			"until": "Mar 2023",
+			"until": "Apr 2023",
 			"location": "Kyoto, Japan",
 			"buttonProps": {
 				"ButtonOrderOfcompanyNameBackgroundColorGreen": 0,
