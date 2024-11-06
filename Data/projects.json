@@ -1,59 +1,6 @@
 {
 	"projects": [
 		{
-			"name": "Media Suite",
-			"imageUrl": "/projects/media_suite.png",
-			"isRecent": true,
-			"inProgress": true,
-			"description": {
-				"text": "This is a very challenging personal project. Its basically a video converter tool built on the browser using Web Assembly, FFMPEG, React.JS, and TypeScript. It's still in very early stage, but little by little it is going to take form.",
-				"keywords": ["challenging", "Web Assembly"]
-			},
-			"tags": [
-				"TypeScript",
-				"React.JS",
-				"TDD",
-				"Tailwind CSS",
-				"Motion",
-				"FFMPEG",
-				"Web Assembly"
-			],
-			"links": {
-				"github": "https://github.com/TheMrCorvy/portfolio-with-nextjs",
-				"webPage": "https://media-suite.netlify.app"
-			}
-		},
-		{
-			"name": "My Portfolio",
-			"imageUrl": "/projects/portfolio.png",
-			"isRecent": true,
-			"inProgress": true,
-			"description": {
-				"text": "I've very recently re-built my portfolio website in order to update the technologies I used to build it, and also to give it a new look with more animations and interactivity in general, and greatly increasing the performance and SEO.",
-				"keywords": ["animations", "interactivity", "increasing the performance"]
-			},
-			"tags": ["TypeScript", "Next JS", "React.JS", "Tailwind CSS", "Motion", "Context API"],
-			"links": {
-				"github": "https://github.com/TheMrCorvy/portfolio-with-nextjs",
-				"webPage": "https://corvalangonzalo.xyz"
-			}
-		},
-		{
-			"name": "Amazoness",
-			"imageUrl": "https://res.cloudinary.com/dk61gssrr/image/upload/v1641899000/projects/amazoness_tkmmln.jpg",
-			"isRecent": true,
-			"inProgress": true,
-			"description": {
-				"text": "Amazoness is a project still in process. This app is planned to be a complete E-Commerce, including variants for products, login and register system, and an administration panel with graophics.",
-				"keywords": ["E-Commerce", "administration panel"]
-			},
-			"tags": ["Next JS", "TypeScript", "React.JS", "Material UI", "MongoDB"],
-			"links": {
-				"github": "https://github.com/TheMrCorvy/amazoness",
-				"webPage": "https://amazoness.vercel.app/"
-			}
-		},
-		{
 			"name": "PasuNashi",
 			"imageUrl": "https://res.cloudinary.com/dk61gssrr/image/upload/v1642176449/projects/pasunashi_jj0ic9.png",
 			"isRecent": true,
@@ -66,21 +13,6 @@
 			"links": {
 				"github": "https://github.com/PasuSewa",
 				"webPage": "https://pasunashi.xyz"
-			}
-		},
-		{
-			"name": "Marroquineria Stallion",
-			"imageUrl": "https://res.cloudinary.com/dk61gssrr/image/upload/v1641898984/projects/stallion_gcywin.jpg",
-			"isRecent": false,
-			"inProgress": false,
-			"description": {
-				"text": "The web application for the E-Commerce of Stallion Marroquinería. This app was built using Next JS, TypeScript, and MaterialUI for the frontend, and Laravel as backend API, with MySQL database.",
-				"keywords": ["E-Commerce"]
-			},
-			"tags": ["Next JS", "Material UI", "Laravel", "MySQL"],
-			"links": {
-				"github": "https://github.com/TheMrCorvy/Marroquineria-Stallion-Frontend",
-				"webPage": "https://marroquineria-stallion-frontend.vercel.app"
 			}
 		},
 		{
@@ -110,52 +42,7 @@
 			"tags": ["React.JS", "TypeScript", "Material UI"],
 			"links": {
 				"github": "https://github.com/TheMrCorvy/salud-y-derechos",
-				"webPage": "https://saludyderechos.com.ar"
-			}
-		},
-		{
-			"name": "Yu-Gi-Oh! Para El Pueblo",
-			"imageUrl": "https://res.cloudinary.com/dk61gssrr/image/upload/v1641898862/projects/ygopep_jbnzjb.jpg",
-			"isRecent": true,
-			"inProgress": false,
-			"description": {
-				"text": "An E-Commerce built using only Laravel (for both the frontend and backend), and MySQL for the database.",
-				"keywords": ["E-Commerce"]
-			},
-			"tags": ["Laravel", "MySQL", "Bootstrap", "PHP"],
-			"links": {
-				"github": "https://github.com/TheMrCorvy/Yu-Gi-Oh-Para-El-Pueblo",
-				"webPage": "https://yugiohparaelpueblo.herokuapp.com/"
-			}
-		},
-		{
-			"name": "GBA Credionline",
-			"imageUrl": "https://res.cloudinary.com/dk61gssrr/image/upload/v1641898892/projects/gba_iogzys.jpg",
-			"isRecent": false,
-			"inProgress": false,
-			"description": {
-				"text": "A simple web page built with a layout based on Bootstrap 4.",
-				"keywords": []
-			},
-			"tags": [""],
-			"links": {
-				"github": "https://github.com/TheMrCorvy/gba-credionline",
-				"webPage": "http://gba.credionline.com/"
-			}
-		},
-		{
-			"name": "Prices of Magic The Gathering",
-			"imageUrl": "https://res.cloudinary.com/dk61gssrr/image/upload/v1641898647/projects/magic_ug3jgc.jpg",
-			"isRecent": false,
-			"inProgress": false,
-			"description": {
-				"text": "A simple frontend application that consumes an API in order to show.",
-				"keywords": ["API"]
-			},
-			"tags": ["React.JS", "Bootstrap"],
-			"links": {
-				"github": "https://github.com/TheMrCorvy/precios-mtg",
-				"webPage": "https://themrcorvy.github.io/precios-mtg/"
+				"webPage": "https://saludyderechos.com"
 			}
 		}
 	]
