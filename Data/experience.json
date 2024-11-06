@@ -1,6 +1,66 @@
 {
 	"experience": [
 		{
+			"company": "GlobalLogic",
+			"key": "GlobalLogic",
+			"position": "Fullstack TS Developer",
+			"tasks": [
+				{
+					"text": "Developing together with the Backend team a new flow to handle identification of users, and implementing the system across multiple consumer apps.",
+					"keywords": ["Backend", "identification"]
+				},
+				{
+					"text": "Coordinating tasks with multiple team members of different sections such as design, product, UI/UX, Backend, and DevOps.",
+					"keywords": ["Coordinating", "Backend", "DevOps"]
+				},
+				{
+					"text": "Development focused on customer satisfaction and computer security.",
+					"keywords": ["customer staisfaction", "scurity"]
+				}
+			],
+			"from": "Oct 2023",
+			"until": "Present",
+			"location": "US, Remotely",
+			"buttonProps": {
+				"ButtonOrderOfcompanyNameBackgroundColorGreen": 0,
+				"CompanyName": "GlobalLogic",
+				"BarPosition": -8,
+				"BarAvobePosition": 0,
+				"DescriptionJob": "GlobalLogic",
+				"CompanyNameBackgroundColorGreen": [true, false, false, false]
+			}
+		},
+		{
+			"company": "Finalis",
+			"key": "Finalis",
+			"position": "Frontend Developer",
+			"tasks": [
+				{
+					"text": "Developing the new version of a frontend app for financial support and investments advice.",
+					"keywords": ["financial", "investments"]
+				},
+				{
+					"text": "Helping in the process to migrate from a GraphQl integration to a REST API approach.",
+					"keywords": ["GraphQl", "REST", "API"]
+				},
+				{
+					"text": "Following SOLID principles, and making use of tools such as ES Lint and Prettier to ensure good code quality.",
+					"keywords": ["SOLID", "good", "code", "quality"]
+				}
+			],
+			"from": "Dec 2023",
+			"until": "Apr 2024",
+			"location": "US, Remotely",
+			"buttonProps": {
+				"ButtonOrderOfcompanyNameBackgroundColorGreen": 1,
+				"CompanyName": "Finalis",
+				"BarPosition": 36,
+				"BarAvobePosition": 129,
+				"DescriptionJob": "Finalis",
+				"CompanyNameBackgroundColorGreen": [false, true, false, false]
+			}
+		},
+		{
 			"company": "Biwini",
 			"key": "Biwini",
 			"position": "Fullstack PHP Developer",
@@ -21,13 +81,14 @@
 			"from": "Sep 2022",
 			"until": "Present",
 			"location": "Buenos Aires, Argentina",
+			"useKeyOnBtn": true,
 			"buttonProps": {
-				"ButtonOrderOfcompanyNameBackgroundColorGreen": 0,
-				"CompanyName": "Biwini",
-				"BarPosition": -8,
-				"BarAvobePosition": 0,
-				"DescriptionJob": "Biwini",
-				"CompanyNameBackgroundColorGreen": [true, false, false, false]
+                "ButtonOrderOfcompanyNameBackgroundColorGreen": 2,
+                "CompanyName": "Biwini",
+                "BarPosition": 80,
+                "BarAvobePosition": 257,
+                "DescriptionJob": "Biwini",
+                "CompanyNameBackgroundColorGreen": [false, false, true, false]
 			}
 		},
 		{
@@ -52,80 +113,11 @@
 			"until": "Mar 2022",
 			"location": "Kyoto, Japan",
 			"buttonProps": {
-				"ButtonOrderOfcompanyNameBackgroundColorGreen": 1,
-				"CompanyName": "Tsumugi Hotel",
-				"BarPosition": 36,
-				"BarAvobePosition": 129,
-				"DescriptionJob": "TsumugiHotel",
-				"CompanyNameBackgroundColorGreen": [false, true, false, false]
-			}
-		},
-		{
-			"company": "Self-Employed",
-			"key": "Freelancer",
-			"position": "Web Developer",
-			"tasks": [
-				{
-					"text": "Highly qualified Freelance Web Developer, with almost 2 years of professional expertise",
-					"keywords": ["Highly qualified", "2 years"]
-				},
-				{
-					"text": "Proficient in Fullstack web development, and count with a strong portfolio showcasing successful projects across diverse industries.",
-					"keywords": ["strong portfolio"]
-				},
-				{
-					"text": "Versatile freelancer web developer, crafting dynamic digital solutions for diverse clients.",
-					"keywords": ["Versatile", "digital solutions"]
-				}
-			],
-			"from": "Feb 2019",
-			"until": "Mar 2021",
-			"location": "Buenos Aires, Argentina",
-			"useKeyOnBtn": true,
-			"buttonProps": {
-                "ButtonOrderOfcompanyNameBackgroundColorGreen": 2,
-                "CompanyName": "Freelancer",
-                "BarPosition": 80,
-                "BarAvobePosition": 257,
-                "DescriptionJob": "Freelancer",
-                "CompanyNameBackgroundColorGreen": [false, false, true, false]
-			}
-		},
-		{
-			"company": "Salud Y Derechos",
-			"key": "LawFirm",
-			"position": "IT Help Desk & Development",
-			"tasks": [
-				{
-					"text": "Efficiently supported daily operations and collaborated with legal professionals to ensure a smooth workflow and timely execution of tasks, while facilitating document management in the law firm of my father, Dr. Juan Pablo Corvalán.",
-					"keywords": ["ensure", "facilitating"]
-				},
-				{
-					"text": "Establishing the firm's online presence by developing web plattform through which the clients can speed up the process for the paperwork.",
-					"keywords": ["online presence", "web plattform", "speed up"]
-				},
-				{
-					"text": "Receiving and presenting official documentation in court.",
-					"keywords": [""]
-				},
-				{
-					"text": "Control and classification of legal evidence.",
-					"keywords": [""]
-				},
-				{
-					"text": "Performing technical support tasks in the IT area.",
-					"keywords": ["support", "IT area"]
-				}
-			],
-			"from": "Jun 2017",
-			"until": "Jan 2019",
-			"location": "Buenos Aires, Argentina",
-			"buttonProps": {
 				"ButtonOrderOfcompanyNameBackgroundColorGreen": 3,
-				"CompanyName": "Law Firm",
+				"CompanyName": "Tsumugi Hotel",
 				"BarPosition": 122,
 				"BarAvobePosition": 385,
-				"DescriptionJob": "LawFirm",
+				"DescriptionJob": "TsumugiHotel",
 				"CompanyNameBackgroundColorGreen": [false, false, false, true]
 			}
 		}
