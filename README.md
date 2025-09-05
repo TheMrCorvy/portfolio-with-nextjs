@@ -1,12 +1,12 @@
 <h1 align="center">
-  corvalangonzalo.xyz - v2
+  corvalangonzalo.com - v2
 </h1>
 <p align="center">
-  The second iteration of <a href="https://corvalangonzalo.xyz" target="_blank">My Website</a> built with <a href="https://nextjs.org/" target="_blank">Nextjs</a> and hosted with <a href="https://vercel.com/" target="_blank">Vercel</a>
+  The second iteration of <a href="https://corvalangonzalo.com" target="_blank">My Website</a> built with <a href="https://nextjs.org/" target="_blank">Nextjs</a> and hosted with <a href="https://vercel.com/" target="_blank">Vercel</a>
 </p>
 
 <p align="center">
-  <a href="https://corvalangonzalo.xyz/" target="_blank">
+  <a href="https://corvalangonzalo.com/" target="_blank">
     <img src="https://raw.githubusercontent.com/DataDog/integrations-extras/master/vercel/images/logo-full-black.png" width="100" alt="Vercel Status" />
   </a>
 </p>
@@ -62,7 +62,7 @@ Since I integrated some of my project into my website I'll mention most of techn
 
 ### How To Use
 
-Yes, you can fork this repo. Please give me proper credit by linking back to [corvalangonzalo.xyz](https://corvalangonzalo.xyz). Thanks!
+Yes, you can fork this repo. Please give me proper credit by linking back to [corvalangonzalo.com](https://corvalangonzalo.com). Thanks!
 
 ## 🛠 Installation & Set Up
 
@@ -101,6 +101,8 @@ Yes, you can fork this repo. Please give me proper credit by linking back to [co
 ```JavaScript
 NEXT_PUBLIC_KEY_GOOGLE_API = "your_API_key"
 ```
+
+You can get it here: (Google Cloud Console)[https://console.cloud.google.com/google/maps-apis/credentials]
 
 6. Start the development server
 
@@ -258,6 +260,6 @@ SOFTWARE.
 ## Author Info
 
 -   Linkedin - [@abdellatif-anaflous](https://www.linkedin.com/in/gonzalo-salvador-corvalan/)
--   Website - [Abdellatif Anaflous](https://corvalangonzalo.xyz)
+-   Website - [Abdellatif Anaflous](https://corvalangonzalo.com)
 
 [Back To The Top](#description) :
