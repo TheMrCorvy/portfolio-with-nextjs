@@ -1,3 +1,5 @@
+import React from 'react';
+
 const GithubIcon = props => {
     return (
       <a href={props.link} target="_blank" rel="noreferrer">

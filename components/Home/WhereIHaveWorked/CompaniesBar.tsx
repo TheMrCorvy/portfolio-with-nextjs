@@ -1,12 +1,12 @@
 import React, { useState } from 'react'
 
-import { motion } from "../../../node_modules/framer-motion/dist/framer-motion";
+import { motion } from "framer-motion";
 
 import experience from '../../../Data/experience.json'
 
 const CompaniesBar = props => {
-    const [barPosition, setBarPosition] = useState<Number>(-8); // Green bar position by the default it's -20px
-    const [barAbovePosition, setBarAbovePosition] = useState<Number>(0);
+    const [barPosition, setBarPosition] = useState<number>(-8); // Green bar position by the default it's -20px
+    const [barAbovePosition, setBarAbovePosition] = useState<number>(0);
     const [companyNameBackgroundColorGreen, setCompanyNameBackgroundColorGreen] = useState<boolean[]>([
         true,
         false,

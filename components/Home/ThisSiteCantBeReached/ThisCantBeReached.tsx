@@ -1,5 +1,5 @@
-import { useEffect, useState } from "react";
-import { motion } from "../../../node_modules/framer-motion/dist/framer-motion";
+import React, { useEffect, useState } from "react";
+import { motion } from "framer-motion";
 
 export default function ThisCantBeReached() {
     const [ShowText, setShowText] = useState(false);

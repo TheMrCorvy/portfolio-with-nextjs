@@ -1,3 +1,4 @@
+import React from "react";
 import ArrowIcon from "../../Icons/ArrowIcon";
 
 export default function GetInTouch() {
