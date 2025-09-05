@@ -1,6 +1,28 @@
 {
 	"projects": [
 		{
+			"name": "Unlimited Blades Works",
+			"imageUrl": "https://res.cloudinary.com/dd7j2idah/image/upload/v1757108665/Captura_de_pantalla_2025-09-05_a_la_s_6.44.16_p._m._dd3lbf.png",
+			"isRecent": true,
+			"inProgress": false,
+			"description": {
+				"text": "A pirate anime streaming site that focuses on streaming high quality, very heavy .mp4 media from my own server at home. The site is built with Next.js and Tailwind CSS for the frontend, and Node.js with Express for the backend. It includes user authentication with Strapi, and a recommendation system based on user watch history.",
+				"keywords": [
+					"streaming",
+					"high quality",
+					"heavy",
+					"server at home",
+					"recommendation system",
+					"Strapi"
+				]
+			},
+			"tags": ["NextJS", "TypeScript", "Jest", "TDD", "ExpressJS", "MySQL", "Headless CMS"],
+			"links": {
+				"github": "hhttps://github.com/TheMrCorvy/anime-private-cloud-frontend",
+				"webPage": "https://unlimitedblades.work"
+			}
+		},
+		{
 			"name": "PasuNashi",
 			"imageUrl": "https://res.cloudinary.com/dk61gssrr/image/upload/v1642176449/projects/pasunashi_jj0ic9.png",
 			"isRecent": true,
